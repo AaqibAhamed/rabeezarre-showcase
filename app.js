@@ -36,7 +36,7 @@ function displayMenuItems(menuItems) {
     // console.log("item");
     let displayMenu = menuItems.map(function (item) {
         // console.log(item);
-        return `<div class="col-6">
+        return `<div class="col-12 col-md-6">
             <div class="card">
                 <img class="card-img-top" src=${item.img} alt=${item.title}></img>
                 <div class="card-body">
